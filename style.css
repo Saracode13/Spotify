@@ -1,0 +1,114 @@
+body {
+    height: 675px;
+  }
+  
+  /*header*/
+  
+  header {
+    height: 40px;
+    width: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 8px;
+    padding-bottom: 4px;
+  }
+  
+  /*Menú navegación*/
+  
+  nav ul {
+    height: 50px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    font-family: Helvetica;
+    font-size: 14px;
+    list-style: none;
+  }
+  
+  ul.Menu {
+    width: 300px;
+    height: 50px;
+    padding-left: 200px;
+  }
+  
+  /*Imagen Principal*/
+  
+  .imagen-principal {
+    height: 450px;
+    position: relative;
+  }
+  
+  section.texto-encima {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Helvetica;
+    position: absolute;
+    top: 220px;
+    left: 130px;
+    line-height: 1px;
+  }
+  
+  .whats-new {
+    width: 675px;
+  }
+  
+  section p {
+    width: 675px;
+    font-family: Helvetica;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline 3px solid #5ab36c;
+  }
+  
+  ul.icon-text {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-left: 10px;
+  }
+  
+  li,
+  icon {
+    width: 675px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+  }
+  
+  li img {
+    width: 80px;
+  }
+  li h1 {
+    font-size: 16px;
+    font-family: Helvetica;
+    display: flex;
+    color: #5ab36c;
+  }
+  
+  li h2 {
+    font-size: 11px;
+    font-family: Helvetica;
+  }
+  
+  /*Sección verde*/
+  
+  
+  section.zona-verde p {
+    font-size: 30px;
+   flex-direction: column;
+  }
+  
+  ul three-sections {
+    width: 675px;
+    height: 550px;
+    display: flex;
+    justify-content: left;
+  }
+  
